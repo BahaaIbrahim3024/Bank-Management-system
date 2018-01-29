@@ -1,2 +1,2 @@
 # Bank-Management-system
-C++ Project deal with files 
+crud App with files in c++
