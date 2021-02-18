@@ -43,7 +43,7 @@ public:
 
 };
 
-
+// file stream object (it can be used both for read and write on the file)
 fstream f;
 fstream file2;
 
@@ -263,7 +263,7 @@ void update_person (char iid [10])
 
 }
 
-//Delete
+//Delete the record of the person
 void delete_person (char iid[10])
 {
     person p;
@@ -395,6 +395,8 @@ void cases(int number)
     }
 
 }
+
+// this is the starting Screen When Program is run First time
 void introduction()
 {
 
